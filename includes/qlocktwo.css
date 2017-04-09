@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: rgb(43,49,52);
+    background-image: url('../images/q2bg.png');
+    color: white;
+    font-family: 'Helvetica Neue Light', 'HelveticaNeue-Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+}
+
+#q2top {
+    width: 700px;
+    height: 50px;
+    margin: 45px auto 0 auto;
+    background-image: url('../images/q2top.png');
+    font-size: 1px;
+}
+
+#q2frame {
+    width: 670px;
+    height: 670px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(16,17,18);
+    background-image: url('../images/q2fg.png');
+    color: rgb(46,46,46);
+    text-shadow: 0 0 1px rgb(46,46,46);
+}
+
+#q2btm {
+    width: 700px;
+    height: 50px;
+    margin: 0 auto 15px auto;
+    background-image: url('../images/q2btm.png');
+    font-size: 1px;
+}
+
+#q2frame .q2border {
+    width: 670px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#q2frame .q2border div { width: 25px; height: 25px; }
+#q2frame .q2border #q2UL,#q2BL { float: left; }
+#q2frame .q2border #q2UR,#q2BR { float: right; }
+
+#qlocktwo {
+    width: 550px;
+    height: 550px;
+    margin: 35px 60px;
+    font-weight: 200;
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+}
+
+#qlocktwo .q2quot {
+    letter-spacing: -50px;
+}
+
+#qlocktwo .q2col {
+    width: 50px;
+    height: 550px;
+    float: left;
+}
+
+#q2frame .lit { 
+    color: white;
+    text-shadow: 0 0 4px rgb(255,249,174);
+}
+
+#debugDiv {
+    width: 550px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.25;
+}
