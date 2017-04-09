@@ -3,7 +3,7 @@ QLOCKTWO
 
 A JavaScript implementation of [Biegert &amp; Funk's QLOCKTWO](http://www.qlocktwo.com)
 
-![Preview](/screenshots/preview.png)
+![Preview](/screenshots/preview.jpg)
 
 About
 -----
